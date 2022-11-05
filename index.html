@@ -6,17 +6,15 @@
     <meta name="description" content="Your description goes here">
     <meta name="keywords" content="one, two, three">
 
-    <!-- this pulls in jQuery library, then links to the script.js file-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="JS/script.js"></script>
 
-    <title>TTRPG Quests</title>
+    <title>Quests</title>
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <!-- external CSS link -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 
@@ -26,7 +24,7 @@
         <section class="infoLabelContain">
             <!--           this section is for the info dropdown        -->
             <label for="boxCheck" class="infoLabel">
-                <p><i id=" fa-play" class="fa-solid fa-play"></i><i id="fa-caret-down" class="fa-solid "></i>INFO</p>
+                <p>INFO</p>
             </label>
             <input type="checkbox" id="boxCheck" />
             <div class="infoDropdown close" id="infoDropdown">
@@ -43,16 +41,19 @@
         <section>
             <h1>TTRPG Quests</h1>
         </section>
-        <nav class="home"><a href="https://brela-codewars.netlify.app/" target="_blank">HOME</a></nav>
+        <nav class="home"><a href="">HOME</a></nav>
 
     </header>
     <main>
-        <section class="displaySolutionContainer centerText">
-            <h5>Hello, this is (enter TTRPG here)</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, adipisci!</p>
+        <section class="displayOnPageLoad centerText">
+            <h5>Display this section on pageload or if you want one of the quest items to show on page load, give the
+                div a
+                class of 'stick' next to displayContent</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quod reprehenderit earum consequuntur!
+                Dolore odio asperiores minima accusantium commodi totam.</p>
         </section>
         <section class="kyuVerticalContainer" id="kyuVerticalContainer">
-            <div class="kyuNavContain">
+            <!--    <div class="kyuNavContain">
                 <ul class="kyuNav">
                     <li><a href="#kyu8">8</a></li>
                     <li><a href="#kyu7">7</a></li>
@@ -63,494 +64,106 @@
                     <li><a href="#kyu2">2</a></li>
                     <li><a href="#kyu1">1</a></li>
                 </ul>
-            </div>
+            </div> -->
 
             <!--                   start of kyu boxes 1 - 8         -->
 
 
-            <!------------------THIS IS A TEMPLATE    - no star-------------COPY AND PASTE IT---------------->
-            <!--                  ---------           ___         -----------
-
+            <!------------------THIS IS A TEMPLATE    -------------COPY AND PASTE IT---------------->
+            <!--                 
+                
+                ---------   ___   ----------- 
                  <section>
-                    <div class="dropdown" id="a___">
-                        <span class="listItem">___</span>
-                    </div>
-                    <div class="dropdown-content x___">
-                        <h4 class="title">________</h4>
-                        <p class="assignmentParagraph">
-                        </p>
-                        <h5 class="solution">My Solution</h5>
-                        <img src="images/___mine.png">
-                        <h5 class="best">Best Solution</h5>
-                        <img src="images/___best.png">
-                    </div>
-                </section>
-            ---------------------------------------------------------------------------------------->
-            <!----------------☆☆     THIS IS A TEMPLATE --  WITH A STAR ☆☆ -------COPY AND PASTE IT---------------->
-            <!--          
-                 ----------    ☆   ___    ☆     ------------
-                <section>
-                    <div class="dropdown" id="a___">
-                        <div><i class="fa-solid fa-star"></i></div>
-                        <span class="listItem">___</span>
-                        <div><i class="fa-solid fa-star spacer-hide"></i></div>
+
+                    <div class="listItem" id="match___">
+                        <span class="title">___</span>
                     </div>
 
-                    <div class="dropdown-content x___">
-                        <h4 class="title"></h4>
-                        <p class="assignmentParagraph">___</p>
-                        <h5 class="tryIt">Try It Out</h5>
-                        <label for="">___</label>
-                        <input id="" type="text" autocomplete="off">
-                        <button id="">CHECK</button>
-                        <h5 class='result' id=""></h5>
-
-                        <h5 class="solution">My Solution</h5>
-                        <img class="" src="images/___mine.png" alt="picture of code">
-                        <h5 class="best">Best Solution</h5>
-                        <img class="" src="images/___best.png" alt="picture of code">
+                    <div class="displayContent match___">
+                        <p>something</p>
                     </div>
+
                 </section>
 
-            --IMG defalut size is 75
-            Options: bigger img100
-                     smaller img65 or img50-->
 
-
-
-            <!------------------------------------------------------------------------------------------>
-            <!-- ----------------------------------------------------------------------
+           
+            ----------------------------------------------------------------------
             ----------------------           8 kyu                ---------------------
             ---------------------------------------------------------------------- -->
             <section class="kyu" id="kyu8">
                 <h3>8 kyu</h3>
 
-
-                <!-- --------- 1 ----------- -->
-
+                <!-- ---------   Title Of Quest Here   -----------  -->
                 <section>
-                    <div class="dropdown" id="a1">
-                        <span class="listItem">Quest 1</span>
+                    <div class="listItem" id="quest1">
+                        <span class="title">Title Of Quest 1</span>
                     </div>
-                    <div class="dropdown-content x1">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
+                    <div class="displayContent quest1">
+                        <p>1</p>
+                        <div class="color1">
+                        </div>
                 </section>
 
-                <!-- --------- 2 ----------- -->
 
+                <!-- ---------   Title Of Quest Here   -----------  -->
                 <section>
-                    <div class="dropdown" id="a2">
-                        <span class="listItem">Quest 2</span>
+                    <div class="listItem" id="b">
+                        <span class="title">Title Of Quest 2</span>
                     </div>
-                    <div class="dropdown-content x2">
-                        <h4 class="title">Title of Quest 2</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 3 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a3">
-                        <span class="listItem">Quest 3</span>
-                    </div>
-                    <div class="dropdown-content x3">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
+                    <div class="displayContent b">
+                        <p>2</p>
+                        <div class="color2">
+                        </div>
                 </section>
 
-                <!-- --------- 4 ----------- -->
-
+                <!-- ---------   Title Of Quest Here   -----------  -->
                 <section>
-                    <div class="dropdown" id="a4">
-                        <span class="listItem">Quest 4</span>
+                    <div class="listItem" id="c">
+                        <span class="title">Title Of Quest 3</span>
                     </div>
-                    <div class="dropdown-content x4">
-                        <h4 class="title">Title of Quest 4</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 5 ----------- -->
+                    <div class="displayContent c">
+                        <p>3</p>
+                        <div class="color3">
 
-                <section>
-                    <div class="dropdown" id="a5">
-                        <span class="listItem">Quest 5</span>
-                    </div>
-                    <div class="dropdown-content x5">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
+                        </div>
                 </section>
 
-                <!-- --------- 6 ----------- -->
-
+                <!-- ---------   Title Of Quest Here   -----------  -->
                 <section>
-                    <div class="dropdown" id="a6">
-                        <span class="listItem">Quest 6</span>
+                    <div class="listItem" id="d">
+                        <span class="title">Title Of Quest 4</span>
                     </div>
-                    <div class="dropdown-content x6">
-                        <h4 class="title">Title of Quest 6</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
+                    <div class="displayContent d">
+                        <h4 class="contentHeadingTitle">Title Of Quest 4</h4>
+                        <p>title is optioanl, might be fine just on left side navigation</p>
+                        <div class="color4">
+
+                        </div>
                 </section>
-                <!-- --------- 7 ----------- -->
-
+                <!-- ---------   Title Of Quest Here   -----------  -->
                 <section>
-                    <div class="dropdown" id="a7">
-                        <span class="listItem">Quest 7</span>
+                    <div class="listItem last" id="e">
+                        <span class="title">Title Of Quest 5</span>
                     </div>
-                    <div class="dropdown-content x7">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
+                    <div class="displayContent e">
+                        <h4 class="contentHeadingTitle">Title Of Quest 5</h4>
+                        <p>title is optioanl, might be fine just on left side navigation</p>
+                        <div class="color5">
+
+                        </div>
                 </section>
 
-                <!-- --------- 8 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a12">
-                        <span class="listItem">Quest 8</span>
-                    </div>
-                    <div class="dropdown-content x8">
-                        <h4 class="title">Title of Quest 8</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 9 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a9">
-                        <span class="listItem">Quest 9</span>
-                    </div>
-                    <div class="dropdown-content x9">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 10 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a10">
-                        <span class="listItem">Quest 10</span>
-                    </div>
-                    <div class="dropdown-content x10">
-                        <h4 class="title">Title of Quest 10</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 11 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a11">
-                        <span class="listItem">Quest 11</span>
-                    </div>
-                    <div class="dropdown-content x11">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 12 ----------- -->
-
-                <section>
-                    <div class="dropdown last" id="a12">
-                        <span class="listItem">Quest 12</span>
-                    </div>
-                    <div class="dropdown-content x12">
-                        <h4 class="title">Title of Quest 12</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
             </section>
 
             <!-- ----------------------------------------------------------------------
-            ----------------------           7 kyu                ---------------------
+            ----------------------           optional sections               ---------------------
             ---------------------------------------------------------------------- -->
             <section class="kyu" id="kyu7">
-                <h3>7 kyu</h3>
-
-                <!-- --------- 1 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a1">
-                        <span class="listItem">Quest 1</span>
-                    </div>
-                    <div class="dropdown-content x1">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 2 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a2">
-                        <span class="listItem">Quest 2</span>
-                    </div>
-                    <div class="dropdown-content x2">
-                        <h4 class="title">Title of Quest 2</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 3 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a3">
-                        <span class="listItem">Quest 3</span>
-                    </div>
-                    <div class="dropdown-content x3">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 4 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a4">
-                        <span class="listItem">Quest 4</span>
-                    </div>
-                    <div class="dropdown-content x4">
-                        <h4 class="title">Title of Quest 4</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 5 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a5">
-                        <span class="listItem">Quest 5</span>
-                    </div>
-                    <div class="dropdown-content x5">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 6 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a6">
-                        <span class="listItem">Quest 6</span>
-                    </div>
-                    <div class="dropdown-content x6">
-                        <h4 class="title">Title of Quest 6</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 7 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a7">
-                        <span class="listItem">Quest 7</span>
-                    </div>
-                    <div class="dropdown-content x7">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 8 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a12">
-                        <span class="listItem">Quest 8</span>
-                    </div>
-                    <div class="dropdown-content x8">
-                        <h4 class="title">Title of Quest 8</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 9 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a9">
-                        <span class="listItem">Quest 9</span>
-                    </div>
-                    <div class="dropdown-content x9">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 10 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a10">
-                        <span class="listItem">Quest 10</span>
-                    </div>
-                    <div class="dropdown-content x10">
-                        <h4 class="title">Title of Quest 10</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-                <!-- --------- 11 ----------- -->
-
-                <section>
-                    <div class="dropdown" id="a11">
-                        <span class="listItem">Quest 11</span>
-                    </div>
-                    <div class="dropdown-content x11">
-                        <h4 class="title">Title of Quest?</h4>
-                        <p class="assignmentParagraph">Description here
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima blanditiis maiores
-                            corporis possimus expedita dicta perferendis quidem culpa quaerat!</p>
-                    </div>
-                </section>
-
-                <!-- --------- 12 ----------- -->
-
-                <section>
-                    <div class="dropdown last" id="a12">
-                        <span class="listItem">Quest 12</span>
-                    </div>
-                    <div class="dropdown-content x12">
-                        <h4 class="title">Title of Quest 12</h4>
-                        <p class="assignmentParagraph">Description here<br> or whatever you want
-                        </p>
-                        <h5 class="solution">Sub heading 1</h5>
-                        <p>text Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, temporibus.</p>
-                        <h5 class="best">Sub heading 2</h5>
-                        <p>text</p>
-                    </div>
-                </section>
-
-
-
+                <div class="transparentGreyOverlay">
+                    <h3>7 kyu</h3>
+                    <p class="comingSoon">coming soon 🚀</p>
+                </div>
             </section>
-
-            <!-- ----------------------------------------------------------------------
-            ----------------------           6kyu                ---------------------
-            ---------------------------------------------------------------------- -->
-
 
             <section class="kyu" id="kyu6">
                 <div class="transparentGreyOverlay">
@@ -601,3 +214,21 @@
 
 
 </html>
+
+
+
+---------------------------------------------------------------------------------------->
+<!----------------☆☆     THIS IS A TEMPLATE --  WITH A STAR on each side of title ☆☆ -------------------->
+<!--          
+     ----------    ☆   ___    ☆     ------------
+    <section>
+        <div class="dropdown" id="a___">
+            <div><i class="fa-solid fa-star"></i></div>
+            <span class="listItem">___</span>
+            <div><i class="fa-solid fa-star spacer-hide"></i></div>
+        </div>
+
+        <div class="dropdownContent x___">
+         <p>content here</p>
+        </div>
+    </section>
