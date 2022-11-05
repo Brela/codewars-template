@@ -5,7 +5,7 @@ const arrOfListItems = document.querySelectorAll('.listItem')
 
 
 //                             -----------------------------------------------
-//convert listItemID to displayContentClass (these should match in HTML), call clearStick, 
+//convert listItemID to displayContentClass (these should match in HTML),
 //then toggle its stick (display: block)
 
 arrOfListItems.forEach((el, i) => el.addEventListener('click', () => {
