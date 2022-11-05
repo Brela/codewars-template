@@ -2,11 +2,11 @@
 ## HTML
 see the ID and Class named 'match___' in pic below.
 These can be named anything, but must match eachother for JS to work. The JS takes the ID and adds a '.' at the beginning to find the class with the same name and displays that content. These could be named the same as title, without spaces; or anything else, as long as each section's div has a unique ID name and each ID name matches its corresponding class name (next to displayContent)<br>
-<img src="img/brelaCode1.png">
+<img src="img/questsCode1.png">
 
 
 In this next example of a similar section, they are both named quest1         ✅
-<img src="img/brelaCode2.png">
+<img src="img/questsCode2.png">
 
 ### listItem ###
 .listItem is the class name given to all items on left that get colored on hover/ click (named Title of Quest 1 - 5 currently )

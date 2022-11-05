@@ -12,7 +12,7 @@
  }
 
  body {
-     background: rgb(154, 149, 144)
+     background: rgb(163, 157, 156)
  }
 
  h1 {
@@ -68,7 +68,7 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     background: rgb(170, 160, 106);
+     background: rgb(241, 238, 233);
      font-size: 1.7rem;
      font-weight: 700;
      word-spacing: 10px;
@@ -111,12 +111,12 @@
 
 
  nav.home:hover {
-     background-color: rgb(87, 133, 100);
+     background: rgb(202, 189, 155);
      box-shadow: 2px 2px 10px rgb(255, 255, 255);
  }
 
  .infoLabel p:hover {
-     background: rgb(87, 133, 100);
+     background: rgb(202, 189, 155);
  }
 
  /* ====================   INFO DROPDOWN IN TOP LEFT OF SCREEN  ================*/
@@ -149,7 +149,7 @@
      left: 1vw;
      height: 220px;
      width: 70vw;
-     background-color: rgb(218, 233, 215);
+     background-color: rgb(108, 103, 103);
      color: rgb(7, 7, 6);
 
  }
@@ -158,10 +158,6 @@
      display: flex;
  }
 
- /* this is supposed to change caret sideways to caret-down with JS, doesn't work yet */
- .fa-caret-down.hidden {
-     display: none;
- }
 
  /* X to close previous ^^ description block for mobile only -hidden here until mobile query 1200px */
 
@@ -255,7 +251,7 @@ need some work with where it navigates to (into center of kyu sections) */
      background: rgb(206, 212, 172);
  }
 
- /* ---------- KYU CONTAINER ------------------------------- */
+
  .comingSoon p {
      margin: 20px auto;
  }
@@ -280,7 +276,7 @@ need some work with where it navigates to (into center of kyu sections) */
  section.kyu {
      text-align: center;
      margin: 15px auto;
-     background: rgb(198, 192, 184);
+     background: rgb(241, 238, 233);
      height: auto;
      flex-direction: column;
      align-items: center;
@@ -359,7 +355,7 @@ displayOnPageLoad is optional; you can instead give the content you want to disp
  }
 
  .listItem:hover {
-     background-color: rgba(240, 233, 198, 0.308);
+     background-color: rgba(161, 161, 149, 0.281);
  }
 
  .displayOnPageLoad h5, .displayOnPageLoad p {
@@ -371,13 +367,13 @@ displayOnPageLoad is optional; you can instead give the content you want to disp
 
 
  .listItemSelectedColor {
-     background: rgb(170, 160, 106);
+     background: rgb(202, 189, 155);
  }
 
  /* this hover selector is to override the .listItem on mousehover when Item is clicked
    *** must match the listItemSelectedColor above! */
  .listItemSelectedColor:hover {
-     background: rgb(170, 160, 106);
+     background: rgb(202, 189, 155);
  }
 
 
