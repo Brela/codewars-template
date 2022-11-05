@@ -29,7 +29,7 @@ This commented out title helps keep each section separated nicely once there is 
 
 * Anything with kyu in the name will probably be renamed
 
-* if anyone want's to fix layout, note that the <strong>.displayContent</strong> div and <strong>.displayOnPageLoad</strong> must have equal position and dimension values
+* if anyone want's to fix layout, note that the <strong>.displayContent</strong> div and <strong>.displayOnPageLoad</strong> must have equal position and dimension values so that they line up. Also <strong>.kyuVerticalContainer</strong> is the container on left that has all kyu sections. The flex-basis and margin on this can be edited along with the .displayContent width to change the overall layout dimensions
 
 ## JS ##
 
