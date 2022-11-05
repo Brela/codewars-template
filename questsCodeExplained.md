@@ -9,9 +9,9 @@ In this next example they are both named quest 1 ✅
 
 <strong>.listItem</strong> is the class name given to all items on left that get colored on hover/ click (named Title of Quest 1 - 5 currently )
 
-<strong>.displayContent</strong> is what shows up in the large section on the screen when you click the listItem
+<strong>.displayContent</strong> is the content that shows up on the screen when you click the listItem
 
-* if you copy then paste the commented out template, you have to comment out that line (see blue arrow in 1st pic), and (see title commented out 2nd pic)
+when you use the commented out template, you have to comment out that line next to the blue arrow after pasting the template (see blue arrow in 1st pic), and (see title commented out 2nd pic)
     * this commented out title helps keep each section separated nicely once there is lots of content in each section
 
 ## CSS ##
@@ -23,4 +23,6 @@ In this next example they are both named quest 1 ✅
 
 ## JS ##
 
-* the 'stick' class is used
+When a <strong>.listItem</strong> is clicked, JS adds a class of <strong>.stick</strong> to the div below, next to the class of <strong>.displayContent</strong>. By default <strong>.displayContent</strong> has a declaration of display: none; <strong>.stick</strong> has a declaration of display: block; which makes the content appear
+
+I just realized that displayContent is not the best name for that class because it doesn't actually display the content lol. But, it does hold all of the style and layout for the displayed content
