@@ -7,9 +7,9 @@ these can be named anything, but must match eachother for JS to work. The JS tak
 In this next example they are both named quest 1 ✅
 <img src="img/brelaCode2.png">
 
-<span><img src='https://placehold.it/150/ff8300/ff8300?text=.listItem'></span> is the class name given to all items on left that get colored on hover/ click (named Title of Quest 1 - 5 currently )
+<strong>.listItem</strong> is the class name given to all items on left that get colored on hover/ click (named Title of Quest 1 - 5 currently )
 
-<span><img src='https://placehold.it/150/ff8300/ff8300?text=.displayContent'></span> is what shows up in the large section on the screen when you click the listItem
+<strong>.displayContent</strong> is what shows up in the large section on the screen when you click the listItem
 
 * if you copy then paste the commented out template, you have to comment out that line (see blue arrow in 1st pic), and (see title commented out 2nd pic)
     * this commented out title helps keep each section separated nicely once there is lots of content in each section
